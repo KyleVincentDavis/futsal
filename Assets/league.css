@@ -1,0 +1,222 @@
+/* League Info Section */
+.league-info {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #dfdfdf;
+}
+
+.league-header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.league-header p {
+   width: 50%;
+   align-items: center;
+   text-align: center;
+}
+
+/* Match Card */
+.match-card {
+  background-color: white;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-image: url('futsal.jpg');
+
+  background-size: cover;
+  background-position: top;
+  height: 558px;
+  color: white;
+}
+
+
+/* About Section */
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 60px 20px;
+  background-color: #F6F6F6;
+}
+
+.about-content {
+  max-width: 600px;
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.about-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.about-list li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+/* Hero Section Styling */
+.hero {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+
+/* Icons Section */
+.icons {
+  text-align: center;
+  margin-top: -160px; /* Move the icons up */
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.icon-item {
+  max-width: 220px; /* Adjust width of each icon block */
+  padding: 20px;
+  text-align: center;
+}
+
+.fa-icon {
+  font-size: 3rem; /* Icon size */
+  color: #007bff; /* Adjust color as needed */
+  margin-bottom: 10px;
+}
+
+
+/* Why section */
+.why-section {
+  padding: 60px 20px; /* Add horizontal padding */
+  background-color: #f9f9f9; /* Light background for contrast */
+  text-align: center; /* Center text for better alignment */
+}
+
+/* Why columns */
+.why-columns {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping */
+  gap: 2rem; /* Space between columns */
+  align-items: center;
+  justify-content: center; /* Center content horizontally */
+}
+
+.image-column {
+  flex: 1 1 400px; /* Flex-grow and flex-shrink with a base width */
+  max-width: 100%; /* Prevent overflow */
+}
+
+.text-column {
+  flex: 1 1 400px; /* Flex-grow and flex-shrink with a base width */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.subheading {
+  font-size: 0.9rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.text-column h2 {
+  font-size: 2.5rem; /* Increased font size for more impact */
+  margin: 0;
+  color: #333; /* Darker color for better readability */
+}
+
+/* Icon row */
+.icon-row {
+  display: flex;
+  justify-content: center; /* Center items */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  gap: 2rem;
+  margin-top: 40px; /* Space above icon row */
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+  flex: 1 1 20%; /* Flex-grow and flex-shrink with a base width of 20% */
+  transition: transform 0.3s; /* Add a transition effect */
+}
+
+.icon-item:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+.icon-item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* Make icons circular */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.icon-item h3 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0 0;
+  color: #444; /* Darker color for headings */
+}
+
+.icon-item p {
+  font-size: 0.9rem;
+  color: #666; /* Lighter color for body text */
+}
+
+
