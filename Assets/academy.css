@@ -323,3 +323,9 @@
   text-align: center; /* Center text within cards */
   max-width: 300px; /* Limit the width of each card */
 }
+
+.detail-card img {
+  max-width: 100%; /* Make images responsive */
+  border-radius: 8px; /* Match card corners */
+  margin-bottom: 10px; /* Space between image and text */
+}
