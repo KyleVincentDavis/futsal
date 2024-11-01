@@ -322,7 +322,7 @@
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   margin: 20px; /* Add margin for spacing */
   text-align: center; /* Center text within cards */
-  max-width: 300px; /* Limit the width of each card */
+  max-width: 350px; /* Limit the width of each card */
 }
 
 .detail-card img {
